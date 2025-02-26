@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.app-background {
+    background: url('./img6.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+.app-input-group input:hover,
+.app-input-group input:focus {
+    border-color: #ffffff; 
+    color: white;
+
+}
+
+.app-login-container {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    margin-left: 50px;
+
+    color: #fff; 
+    border: 1px solid rgba(0, 0, 0, 0.3); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+.app-login-form h2
+{
+    color: white;
+}
+.app-input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.app-input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffffff; 
+}
+
+.app-input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1); 
+    color: #000000; 
+    outline: none;
+}
+
+.app-login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(76, 175, 80, 0.8);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.app-login-btn:hover {
+    background-color: rgba(69, 160, 73, 0.8);
+}
+
+.app-signup-text {
+    text-align: center;
+    margin-top: 20px;
+    color: #fff; 
+}
+
+.app-signup-text a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.app-signup-text a:hover {
+    text-decoration: underline;
+}
+
+.app-signup-text span {
+    white-space: nowrap; 
+}
